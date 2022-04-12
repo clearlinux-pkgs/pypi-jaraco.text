@@ -4,7 +4,7 @@
 #
 Name     : pypi-jaraco.text
 Version  : 3.7.0
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/88/9b/ad6fb0d9132e9a12d0f5432645fb2de5902e709f06e03bc5bbe80ffa76e5/jaraco.text-3.7.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/88/9b/ad6fb0d9132e9a12d0f5432645fb2de5902e709f06e03bc5bbe80ffa76e5/jaraco.text-3.7.0.tar.gz
 Summary  : Module for text manipulation
@@ -14,7 +14,6 @@ Requires: pypi-jaraco.text-license = %{version}-%{release}
 Requires: pypi-jaraco.text-python = %{version}-%{release}
 Requires: pypi-jaraco.text-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pypi(importlib_resources)
 BuildRequires : pypi(jaraco.context)
 BuildRequires : pypi(jaraco.functools)
 BuildRequires : pypi(py)
@@ -53,7 +52,6 @@ Summary: python3 components for the pypi-jaraco.text package.
 Group: Default
 Requires: python3-core
 Provides: pypi(jaraco.text)
-Requires: pypi(importlib_resources)
 Requires: pypi(jaraco.context)
 Requires: pypi(jaraco.functools)
 
@@ -70,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1643070252
+export SOURCE_DATE_EPOCH=1649768010
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
