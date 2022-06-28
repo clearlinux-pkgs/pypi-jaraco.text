@@ -4,7 +4,7 @@
 #
 Name     : pypi-jaraco.text
 Version  : 3.8.0
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/db/82/4ad619a76bd054ab93031d91f4cd9d444148fb351a134a3c8bc1901d260e/jaraco.text-3.8.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/db/82/4ad619a76bd054ab93031d91f4cd9d444148fb351a134a3c8bc1901d260e/jaraco.text-3.8.0.tar.gz
 Summary  : Module for text manipulation
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1654383576
+export SOURCE_DATE_EPOCH=1656383538
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -112,7 +112,7 @@ popd
 ## Remove excluded files
 rm -f %{buildroot}*/usr/lib/python3.*/site-packages/jaraco/__init__.py
 rm -f %{buildroot}*/usr/lib/python3.*/site-packages/jaraco/__pycache__/__init__.*
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
