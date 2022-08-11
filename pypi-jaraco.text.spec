@@ -4,7 +4,7 @@
 #
 Name     : pypi-jaraco.text
 Version  : 3.8.1
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/a3/a8/38a9ee3492145b1e53b600a807e5bd929855b1157f527e36bf8aebcfd950/jaraco.text-3.8.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a3/a8/38a9ee3492145b1e53b600a807e5bd929855b1157f527e36bf8aebcfd950/jaraco.text-3.8.1.tar.gz
 Summary  : Module for text manipulation
