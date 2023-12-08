@@ -7,7 +7,7 @@
 #
 Name     : pypi-jaraco.text
 Version  : 3.12.0
-Release  : 43
+Release  : 44
 URL      : https://files.pythonhosted.org/packages/53/30/52edc6c9997d48b0d9fbedb6a29edab2b397968f637b76aae299a9128c34/jaraco.text-3.12.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/53/30/52edc6c9997d48b0d9fbedb6a29edab2b397968f637b76aae299a9128c34/jaraco.text-3.12.0.tar.gz
 Summary  : Module for text manipulation
@@ -53,6 +53,13 @@ python components for the pypi-jaraco.text package.
 Summary: python3 components for the pypi-jaraco.text package.
 Group: Default
 Requires: python3-core
+Provides: pypi(jaraco.text)
+Requires: pypi(autocommand)
+Requires: pypi(inflect)
+Requires: pypi(jaraco.context)
+Requires: pypi(jaraco.functools)
+Requires: pypi(more_itertools)
+
 
 %description python3
 python3 components for the pypi-jaraco.text package.
