@@ -1,5 +1,5 @@
 PKG_NAME := pypi-jaraco.text
-URL = https://files.pythonhosted.org/packages/c0/ec/498e308febbaa672af954101e9b369cac8188b1f7eccceefdc875d67d595/jaraco_text-3.12.1.tar.gz
+URL = https://files.pythonhosted.org/packages/c4/56/12b2a9ea5230c94efc2476e4a782bb0b13c1301f962c8a13b5626e63e258/jaraco_text-3.14.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
